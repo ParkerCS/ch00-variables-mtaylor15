@@ -1,0 +1,46 @@
+# Variabls
+x = 5
+
+#Multiple variable
+x,y = (5,7)
+print(x, y)
+
+#Math operators
+import math
+print(5//2)
+print(13%5)
+print(8**0.5)
+print(math.sqrt(8))
+
+x = 5
+x %= 3
+
+
+#Math library
+pi = math.pi
+print(pi)
+print(math.cos(0.5))
+
+#round, abs, sqrt
+print(round(5.67, 1))
+
+#print statements, multiple terms
+print(4, 3, 9, 3, "Score" + str(300))
+#print("hello" + "hello", end = "   ")
+#print("world")
+
+#input function
+my_input = input("input a value: ")
+print(int(my_input)+ 3)
+
+print("Hello".upper())
+
+#str, int, float
+y = 3.2
+y = int(y)
+y = float(y)
+y = str(y)
+print(y)
+
+#escape codes
+print("escape\" me \\ \n next \t line")

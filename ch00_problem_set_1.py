@@ -1,5 +1,6 @@
 #SECTION 1 - MATH OPERATORS AND VARIABLES (20PTS TOTAL)
 
+import math
 #PROBLEM 1 (From Math Class to Code - 2pts)
 
 # Print the answer to the math question:
@@ -19,7 +20,7 @@ print(your_answer)
 time = 1
 next_alarm = 728
 
-alarm_alert= time + next_alarm/24
+alarm_alert= time + next_alarm % 12
 print(alarm_alert)
 
 
@@ -54,7 +55,7 @@ print(chair_total)
 # Create variables for radius and pi (3.14159)
 # The formula, in case you do not know, is radius times radius times pi.
 # Print the outcome of your program as follows:
-# “The surface area of a circle with radius ... is ...”
+
 
 r = 5
 area_equation = math.pi *(r**2)

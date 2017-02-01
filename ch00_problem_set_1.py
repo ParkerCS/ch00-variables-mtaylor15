@@ -7,8 +7,10 @@ import math
 # 3(60x^2 + 3x/9) + 2x - 4/3(x) - sqrt(x)
 # where x = 12.83
 x = 12.83
-your_answer = float(3 * (60( (x**2) + 3*x/9) + 2*x - 4/3*x - math.sqrt(x)))
+your_answer = 3 * (60 * (x**2) + 3 * x/9) + 2 * x - 4/3 * x - math.sqrt(x) # corrected, check version history for correction
 print(your_answer)
+
+# Lee - several parenthetical errors.  Careful of your pemdas. (-1)
 
 
 #PROBLEM 2 (Set your alarm - 3pts)
@@ -35,6 +37,8 @@ first_shipping_price = 4
 
 final_cost =cover_price + (67*shipping_price) + first_shipping_price
 print(final_cost)
+
+# Lee - In your calculation, you only charge for first book. (-1)
 
 
 
@@ -84,6 +88,8 @@ print( "a =", a, "and b =", b)
 a += b # this is the first line to help you out
 # add two more lines of code here to cause swapping of a and b
 
-b = a + b
-a += b
+b = a - b
+a = a - b
 print( "a =", a, "and b =", b)
+
+# Lee - Didn't work to swap.  Check correction. (-1)
